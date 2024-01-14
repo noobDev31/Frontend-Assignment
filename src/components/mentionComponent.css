@@ -1,0 +1,38 @@
+.mention-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  
+  .mention-input {
+    width: 300px; /* Adjust as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .mention-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300px; /* Adjust as needed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .mention-options li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .mention-options li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .mention-options .selected {
+    background-color: #e0e0e0; /* Adjust as needed */
+  }
